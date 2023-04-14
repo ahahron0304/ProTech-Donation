@@ -326,6 +326,18 @@ a:focus {
     }
 }
 
+@media (max-width: 595px){
+    .navbar .navbar-brand {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 480px){
+    .navbar .navbar-brand {
+        font-size: 25px;
+    }
+}
+
 
 /*******************************/
 /********** Hero CSS ***********/
@@ -1186,7 +1198,7 @@ a:focus {
     margin: 0 auto;
     margin-top: -220px;
     padding: 30px;
-    background: #f3f6ff;
+    background: rgba(237, 241, 214, 0.5);
 }
 
 @media (max-width: 991.98px) {
@@ -1207,22 +1219,36 @@ a:focus {
     }
 }
 
+.contact .contact-form .section-header {
+    text-align: center;
+}
+
+.contact .contact-form .section-header h2 {
+    color: #609966;
+    margin: 0;
+}
+
 .contact .contact-form input {
     padding: 15px;
-    background: none;
+    background: #ffffff;
     border-radius: 0;
     border: 1px solid rgba(0, 0, 0, .1);
+    font-weight: bold;
 }
 
 .contact .contact-form textarea {
     height: 150px;
     padding: 8px 15px;
-    background: none;
+    background: #ffffff;
     border-radius: 0;
     border: 1px solid rgba(0, 0, 0, .1);
+    font-weight: bold;
 }
 
 .contact .contact-form .btn.btn-custom {
+    font-size: 24px;
+    background: #9DC08B;
+    color: #ffffff;
     width: 100%;
 }
 
@@ -1230,6 +1256,11 @@ a:focus {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.contact .contact-form .btn.btn-custom:hover {
+    background: #9DC08B;
+    color: #40513B;
 }
 
 
@@ -1677,7 +1708,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #20212B;
+    background: #609966;
 }
 
 .footer .footer-contact,
@@ -1694,7 +1725,7 @@ a:focus {
     margin-bottom: 30px;
     font-size: 22px;
     font-weight: 700;
-    color: #609966;
+    color: #ffffff;
 }
 
 .footer .footer-link a {
@@ -1730,6 +1761,7 @@ a:focus {
     width: 40px;
     height: 40px;
     padding: 6px 0;
+    color: #ffffff;
 }
 
 .footer .footer-social a {
@@ -1750,7 +1782,7 @@ a:focus {
 
 .footer .footer-newsletter label {
     margin-top: 5px;
-    color: #777777;
+    color: #ffffff;
     font-size: 14px;
     letter-spacing: 1px;
 }
@@ -1772,7 +1804,7 @@ a:focus {
 
 .footer .copyright p {
     margin: 0;
-    color: #999999;
+    color: #ffff;
 }
 
 .footer .copyright p a {
