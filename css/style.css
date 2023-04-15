@@ -1387,7 +1387,7 @@ a:focus {
     color: var(--green2);
 }
 
-.btn {
+.btn.view-all {
     position: relative;
     padding: 5px 10px;
     background: var(--green);
@@ -1584,7 +1584,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #609966;
+    color: #40513B;
     letter-spacing: 1px;
 }
 
