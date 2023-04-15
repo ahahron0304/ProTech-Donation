@@ -14,6 +14,7 @@
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-7yGJmfR+mz7V4NfBv+fdZq3EgyhY2gSjNDvL/5l0h5A5mp9DmW0m5l6mzU6xDYp6VbG6j0w0NJdl+MsKpCl8Gw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
         <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -252,7 +253,7 @@
                     <div class="col-lg-7">
                         <div class="donate-content">
                             <div class="section-header">
-                                <p>Donate Now</p>
+                                <p>Donate Now!</p>
                                 <h2>By making a donation, you can make a difference in someone's life.</h2>
                             </div>
                             <div class="donate-text">
@@ -264,27 +265,11 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="donate-form">
-                            <form>
-                                <div class="control-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="required" />
-                                </div>
-                                <div class="control-group">
-                                    <input type="email" class="form-control" placeholder="Email" required="required" />
-                                </div>
-                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-custom active">
-                                        <input type="radio" name="options" checked> ₱100
-                                    </label>
-                                    <label class="btn btn-custom">
-                                        <input type="radio" name="options"> ₱200
-                                    </label>
-                                    <label class="btn btn-custom">
-                                        <input type="radio" name="options"> ₱500
-                                    </label>
-                                </div>
-                                <div>
-                                    <button class="btn btn-custom" type="submit">Donate Now</button>
-                                </div>
+                            <a href="https://www.paypal.com/donate/?hosted_button_id=A3JJAZ9YRE2UJ">
+                                <img src="img/project.jpg" class="project"  alt="Image">
+                                <button class="btn btn-custom" type="submit"><i class="fab fa-paypal"></i><b> DONATE NOW</b></button>
+                            </a>
+                            <img  src="img/payments.png" class="payments">
                             </form>
                         </div>
                     </div>
@@ -346,7 +331,111 @@
         <!-- Event End -->
 
 
+        <!-- Contact Start -->
+        <div class="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Get In Touch</p>
+                    <h2>Contact for any query</h2>
+                </div>
+                <div class="contact-img">
+                    <img src="img/contact.png" alt="Image">
+                </div>
+                <div class="contact-form">
+                    <div class="section-header">
+                        <h2>Send us a Message</h2>
+                    </div>
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Blog Start -->
+        <div class="blog">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Our Blog</p>
+                    <h2>Latest news & articles directly from our blog</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog-1.png" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Regular Donations</a></h3>
+                                <p>
+                                    Regular Donations: Building a Stable Future for Charities and Communities.
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog-2.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">The Power of Giving Back</a></h3>
+                                <p>
+                                    Giving back can make a real difference in the world. Learn how your donations can positively impact those in need.
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <img src="img/blog-3.jpg" alt="Image">
+                            </div>
+                            <div class="blog-text">
+                                <h3><a href="#">Donations benefits</a></h3>
+                                <p>
+                                    Discover how regular donations can provide stable, long-term support for charities and make a lasting impact on communities in need.
+                                </p>
+                            </div>
+                            <div class="blog-meta">
+                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
         <!-- Team Start -->
+        <hr>
         <div class="team">
             <div class="container">
                 <div class="section-header text-center">
@@ -462,110 +551,6 @@
             </div>
         </div>
         <!-- Team End -->
-        
-        
-        <!-- Contact Start -->
-        <div class="contact">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Get In Touch</p>
-                    <h2>Contact for any query</h2>
-                </div>
-                <div class="contact-img">
-                    <img src="img/contact.png" alt="Image">
-                </div>
-                <div class="contact-form">
-                    <div class="section-header">
-                        <h2>Send us a Message</h2>
-                    </div>
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-            </div>
-        </div>
-        <!-- Contact End -->
-
-
-        <!-- Blog Start -->
-        <div class="blog">
-            <div class="container">
-                <div class="section-header text-center">
-                    <p>Our Blog</p>
-                    <h2>Latest news & articles directly from our blog</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog-1.png" alt="Image">
-                            </div>
-                            <div class="blog-text">
-                                <h3><a href="#">Regular Donations</a></h3>
-                                <p>
-                                    Regular Donations: Building a Stable Future for Charities and Communities.
-                                </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog-2.jpg" alt="Image">
-                            </div>
-                            <div class="blog-text">
-                                <h3><a href="#">The Power of Giving Back</a></h3>
-                                <p>
-                                    Giving back can make a real difference in the world. Learn how your donations can positively impact those in need.
-                                </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog-item">
-                            <div class="blog-img">
-                                <img src="img/blog-3.jpg" alt="Image">
-                            </div>
-                            <div class="blog-text">
-                                <h3><a href="#">Donations benefits</a></h3>
-                                <p>
-                                    Discover how regular donations can provide stable, long-term support for charities and make a lasting impact on communities in need.
-                                </p>
-                            </div>
-                            <div class="blog-meta">
-                                <p><i class="fa fa-comments"></i><a href="">15 Comments</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog End -->
 
 
         <!-- Footer Start -->
