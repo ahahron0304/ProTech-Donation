@@ -771,51 +771,38 @@ a:focus {
     background: #609966;
 }
 
-.donate .donate-form .control-group {
-    margin-bottom: 15px;
-}
-
-.donate .donate-form .form-control {
-    height: 60px;
-    color: #ffffff;
-    padding: 0 15px;
-    border-radius: 0;
-    border: 1px solid #ffffff;
-    background: transparent;
-}
-
-.donate .donate-form .form-control::placeholder {
-    color: #ffffff;
-    opacity: 1;
-}
-
-.donate .donate-form .form-control:-ms-input-placeholder,
-.donate .donate-form .form-control::-ms-input-placeholder {
-    color: #ffffff;
-}
-
-.donate .donate-form .btn-group {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+.donate .btn.btn-custom{
+    margin-top: 30px;
 }
 
 .donate .donate-form .btn.btn-custom {
     padding: 15px 0;
     width: 100%;
     height: 60px;
-    color: #ffffff;
-    border: 1px solid #ffffff;
+    color: #40513B;
+    border: 1px solid #364432;
+    border-radius: 40px;
     box-shadow: inset 0 0 0 0 #ffffff;
 }
 
 .donate .donate-form .btn.btn-custom:hover,
 .donate .donate-form .btn.btn-custom.active {
-    color: #609966;
-    border: 1px solid #ffffff;
+    color: #40513B;
     box-shadow: inset 0 0 0 30px #ffffff;
 }
 
+.project{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.payments{
+    width: 60%;
+    margin: 10px 10px 10px 85px  ;
+
+}
 /*******************************/
 /********** Facts CSS **********/
 /*******************************/
@@ -965,6 +952,15 @@ a:focus {
 
 .team .team-item:hover .team-text {
     height: 160px;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: rgb(139, 187, 143);
+    border-width: 5px;
+    width: 4%;
+    margin: 20px auto;
 }
 
 /*******************************/
@@ -1630,6 +1626,11 @@ a:focus {
 .footer .footer-newsletter .btn.btn-custom {
     width: 100%;
     padding: 15px 0;
+    color: #ffffff;
+}
+
+.footer .footer-newsletter .btn.btn-custom:hover {
+    color: #40513B;
 }
 
 .footer .copyright {
